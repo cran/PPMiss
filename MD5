@@ -1,0 +1,16 @@
+0f6fcec1c6f9d7bcb7e74da40078dbfe *DESCRIPTION
+5c8cb790fae68bdb5e795f9bfc4f9d51 *NAMESPACE
+4bbf330aa83f41c78a7e2b04a3a5eae4 *R/d_estimation.R
+2de070533ffb91809c8afc461913dda4 *R/fit.R
+c8dfe123b382a288add80532228b529a *R/misc.R
+e269678ec0c2e2bc8aa7f76b01451e9e *R/ppmiss.R
+619e12b2d8d89724415c5903348986fb *R/theta_estimation.R
+443b158152e91538ea7b573c1bb10b44 *inst/NEWS.md
+2480070ccebaec3be443f620c17cc9ec *man/PPMiss.Package.Rd
+c3165fc6785a03a95ba960ae24508ea5 *man/PPMiss.copulas.Rd
+e11172290e07dd36b24ee299b1bfe58b *man/arfima.coefs.Rd
+194ab45581a7d7bd72c64dfeab3b6f8f *man/d.fit.Rd
+a3f2ad0839c1db98742f04a11e0feee8 *man/k1fun.Rd
+21d46f729da58e3af0aa3a640a7378cc *man/kdens.Rd
+c6bdbbd849213bf35f420e64b6424366 *src/PPMiss_init.c
+4dff5c07bdbcd16b0b71e9b744697007 *src/cks.f90
