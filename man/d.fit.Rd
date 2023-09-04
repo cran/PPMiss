@@ -66,7 +66,7 @@ Let \eqn{\theta_h} be the copula parameter associated to
 based on pseudo observations. The long memory parameter
 \eqn{d} is estimated by
 
-\deqn{\hat d:=\underset{|d|<0.5}{\mathrm{argmin}}\bigg\{\sum_{h=s}^m \bigg|{\hat K_1}(\hat\theta_h-a)-\frac{\Gamma(1-d)}{\Gamma(d)}h^{2d-1}\bigg|^r\bigg\}, \quad r > 0}.
+\deqn{\hat d:=\mathrm{argmin}_{|d|<0.5}\bigg\{\sum_{h=s}^m \bigg|{\hat K_1}(\hat\theta_h-a)-\frac{\Gamma(1-d)}{\Gamma(d)}h^{2d-1}\bigg|^r\bigg\}, \quad r > 0}.
 }
 \examples{
 \donttest{

@@ -93,9 +93,9 @@ kdens <- function(x){
 #' @title Constant K1
 #'
 #' @description Calculates an estimate for the constant \eqn{K_1} given by
-#' \deqn{K_1 = \iint_{I^2}\frac{1}{l_0(u)l_n(v)}\lim_{\theta\to a}\frac{\partial C_{\theta}(u,v)}{\partial\theta}\,dudv, }
+#' \deqn{K_1 = \int_0^1\int_0^1\frac{1}{l_0(u)l_n(v)}\lim_{\theta\to a}\frac{\partial C_{\theta}(u,v)}{\partial\theta}\,dudv, }
 #' where \eqn{l_m(x):= F_m'\big(F_m^{(-1)}(x)\big)}, \eqn{a} is such that \eqn{C_a(u,v)=uv} (the product copula), and
-#' \eqn{\{F_n\}_{n\in\mathbb{N}}} is a sequence of absolutely continuous distribution
+#' \eqn{\{F_n\}_{n \geq 0}} is a sequence of absolutely continuous distribution
 #' functions.
 #'
 #' @param dCdtheta a function providing the limit as \eqn{\theta \to a} of the
@@ -201,10 +201,10 @@ k1fun <- function(dCdtheta, fun, data, empirical, mean = 0, sd = 1){
 #'
 #' @details The constant \eqn{K_1} is given by
 #'
-#' \deqn{K_1 = \iint_{I^2}\frac{1}{l_0(u)l_n(v)}\lim_{\theta\rightarrow a}\frac{\partial C_{\theta}(u,v)}{\partial\theta}\,dudv, }
+#' \deqn{K_1 = \int_0^1\int_0^1\frac{1}{l_0(u)l_n(v)}\lim_{\theta\rightarrow a}\frac{\partial C_{\theta}(u,v)}{\partial\theta}\,dudv, }
 #'
 #' where \eqn{I=[0,1]}, \eqn{l_m(x):= F_m'\big(F_m^{(-1)}(x)\big)} and
-#' \eqn{\{F_n\}_{n\in\mathbb{N}}} is a sequence of absolutely continuous distribution
+#' \eqn{\{F_n\}_{n \geq 0}} is a sequence of absolutely continuous distribution
 #' functions
 #'
 #' @return Archimedean copula objects of class \sQuote{frankCopula}, \sQuote{amhCopula} or a

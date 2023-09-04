@@ -3,7 +3,8 @@
 \docType{package}
 \name{PPMiss.Package}
 \alias{PPMiss.Package}
-\alias{PPMiss}
+\alias{_PACKAGE}
+\alias{PPMis}
 \title{PPMiss: Copula-Based Estimator for Long-Range Dependent Processes under Missing Data.}
 \description{
 The PPMiss package provides functions for parameter estimation of univariate
@@ -14,3 +15,4 @@ bivariate copulas associated to lagged variables.
 \author{
 Taiane Schaedler Prass \email{taianeprass@gmail.com} and Guilherme Pumi \email{guipumi@gmail.com}
 }
+\keyword{internal}
